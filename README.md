@@ -50,10 +50,3 @@ $blender-whitebox-previs
 通常交付带版本的 `.blend` 源文件、可播放白模视频、关键审查帧、空间与相机说明及提示词交接说明。白模视频控制空间与运动，人物和环境参考控制外观。
 
 状态使用 `DRAFT`、`REVIEW` 或 `READY_FOR_PROMPT`。必须检查实际渲染结果；仅运行成功或仅保存 `.blend` 文件不能代表预演通过。
-
-## 文件
-
-- [SKILL.md](SKILL.md)：适用边界、制作流程、输出契约与验收标准。
-- [agents/openai.yaml](agents/openai.yaml)：Codex 展示名称、默认提示词与显式调用策略。
-- [references/action-previs-standard.md](references/action-previs-standard.md)：涉及动作、接触与受力时的详细标准。
-- [references/shot-routing.md](references/shot-routing.md)：镜头分流、代理选型与通用示例。
