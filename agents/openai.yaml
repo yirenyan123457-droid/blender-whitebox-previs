@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blender 白模构图与动作预演"
+  short_description: "为多人空间、电影构图与复杂运镜选用简模或人形，制作视频白模参考"
+  default_prompt: "使用 $blender-whitebox-previs 判断镜头是否需要白模，按构图、站位与交互需要选择简模或人形并制作预演；普通对话使用文字提示词。"
+policy:
+  allow_implicit_invocation: false
